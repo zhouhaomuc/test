@@ -1,3 +1,6 @@
-var name = prompt("Your name");
-alert("Nice to meet you: " + name);
-console.log("also: " + name);
+var firstName = prompt("Your first name:");
+var lastName = prompt("Your last name:");
+var age = prompt("Your age:");
+
+console.log("Your full name " + firstName + " " + lastName);
+console.log("Your age is " + age);
