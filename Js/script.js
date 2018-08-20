@@ -4,3 +4,8 @@ var age = prompt("Your age:");
 
 console.log("Your full name " + firstName + " " + lastName);
 console.log("Your age is " + age);
+
+
+function replacedash(str) {
+	return str.replace("-", "_");
+}
